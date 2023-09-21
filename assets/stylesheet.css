@@ -1,18 +1,20 @@
+* {
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
 body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
   background-color: black;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header {
-  text-align: center;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
@@ -28,8 +30,26 @@ h2 {
   text-align: center;
 }
 
-* {
-  background-color: black;
+.nav-bar{
+  border:1px solid orange;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav-bar li{
+  display:inline;
+}
+.nav-bar a{
+  display:inline-block;
+  padding:10px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .signup {
@@ -42,23 +62,34 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
   width: 30%;
+  min-width: 300px;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+.hidden-caption {
+  color:black;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#pumpkin-image:hover+.hidden-caption {
+  color: orangered;
+}
+
 input {
   color: white;
-  width: 400; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ffffff; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 15px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 400;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
   
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: orangered;
   color: white;
@@ -68,7 +99,6 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: white;
 }

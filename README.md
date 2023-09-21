@@ -6,11 +6,11 @@ In this mini-project, you will build a landing page using HTML and CSS. While yo
 ​
 Work in your group to implement the following user stories:
 ​
-* As a client, I want to view a single webpage that collects a visitor's contact information.
+<!-- * As a client, I want to view a single webpage that collects a visitor's contact information. -->
 ​
-* As a client, I want the landing page to have a header and footer.
+<!-- * As a client, I want the landing page to have a header and footer. -->
 ​
-* As a client, I want the landing page to have an image with a caption.
+<!-- * As a client, I want the landing page to have an image with a caption. -->
 ​
 * As a client, I want the landing page to have a contact form.
 ​
